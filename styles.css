@@ -65,6 +65,7 @@ section {
 }
 
 #activities {
+  text-align: center;
   font-family: Ghillanza;
   font-size: 17px;
   display: flex;
@@ -166,6 +167,7 @@ h4 {
 }
 
 #guide-desc {
+  text-align: center;
   font-family: Ghillanza;
   font-size: 15px;
   color: rgb(46, 45, 43);
