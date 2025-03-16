@@ -1,0 +1,180 @@
+@font-face {
+  font-family: "Quivert";
+  src: url("fonts/Quivert.ttf");
+}
+
+@font-face {
+  font-family: "Ghillanza";
+  src: url("fonts/Ghillanza.ttf");
+}
+
+@font-face {
+  font-family: "Geconda";
+  src: url("fonts/Geconda.otf");
+}
+
+.cta {
+  background-image: url("images/Mayon.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 443px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0px 0px auto 0px;
+}
+
+#ht-name {
+  font-family: Quivert;
+  font-size: 35px;
+  background-color: rgb(226, 212, 128);
+  color: rgb(39, 38, 38);
+  border: none;
+  border-radius: 10px;
+  padding: 7px 35px 4px 35px;
+  box-shadow: 0 0 100px 5px rgb(2, 66, 31);
+  margin-top: 120px;
+}
+
+#ht-slogan {
+  margin-top: 25px;
+  font-family: Ghillanza;
+  font-size: 17px;
+  background-color: rgb(226, 212, 128);
+  color: rgb(39, 38, 38);
+  border: none;
+  border-radius: 5px;
+  padding: 3px 15px 4px 15px;
+}
+
+section {
+  background: linear-gradient(to top, rgb(248, 236, 202), rgb(252, 214, 131));
+  padding-top: 10px;
+}
+
+.Act-Title {
+  font-family: Ghillanza;
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(46, 45, 43);
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+#activities {
+  font-family: Ghillanza;
+  font-size: 17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+h4 {
+  font-family: Geconda;
+  font-size: 30px;
+}
+
+.ppp {
+  width: 200px;
+}
+
+.places-img1 {
+  background-image: url("Images/active-volcano.jpg");
+  background-size: cover;
+  width: 150px;
+  height: 150px;
+  border: solid 5px #ffbb00;
+  border-radius: 50%;
+}
+#act-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 20px;
+}
+
+.places-img2 {
+  background-image: url("Images/grass-and-mountains.jpg");
+  background-size: cover;
+  width: 150px;
+  height: 150px;
+  border: solid 5px #ffbb00;
+  border-radius: 50%;
+}
+#act-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 20px;
+}
+
+.places-img3 {
+  background-image: url("Images/ligao-church.jpg");
+  background-size: cover;
+  width: 150px;
+  height: 150px;
+  border: solid 5px rgb(255, 187, 0);
+  border-radius: 50%;
+}
+#act-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 20px;
+}
+
+.profile-img {
+  width: 150px;
+  height: 220px;
+  background-image: url(Images/tony.jpg);
+  background-size: cover;
+  border-radius: 10px;
+  margin: 1px 30px;
+}
+
+#guide {
+  background-color: rgb(255, 233, 173);
+  display: flex;
+  margin: 50px auto;
+  padding: 5px 20px 1px 5px;
+  width: 380px;
+  height: 250px;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 5px solid #757472;
+  border-radius: 10px 10px 0px 0px;
+}
+.guide-info {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#your-guide {
+  font-family: Ghillanza;
+  font-size: 20px;
+  color: rgb(46, 45, 43);
+  margin: 5px auto;
+}
+
+#guide-desc {
+  font-family: Ghillanza;
+  font-size: 15px;
+  color: rgb(46, 45, 43);
+  margin: 5px auto;
+}
+
+#tony {
+  font-family: Ghillanza;
+  font-size: 20px;
+  color: rgb(46, 45, 43);
+  margin: 5px auto;
+}
